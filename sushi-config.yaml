@@ -6,7 +6,7 @@
 id: ee.fhir.terminology
 canonical: https://fhir.ee
 #url: https://fhir.ee/base/1.1.0
-version: 0.0.1
+version: 0.2.0
 name: EETerminology
 title: Estonian Terminology resources
 description: Terminoloogia mis on kasutusel juurutusjuhendites
@@ -160,7 +160,7 @@ menu:
 groups:
    GroupBC:
       name: Estonian Base code systems
-      description: EEBaas koodisüsteemid
+      description: EEBase koodisüsteemid
       resources:
       - CodeSystem/ads-adr-id
       - CodeSystem/ads-oid
@@ -204,12 +204,37 @@ groups:
       - NamingSystem/pro-est-pho
       - NamingSystem/pid-est-ni
    GroupMC:
-      name: MPI
-      description: Master Patient Index
+      name: MPI code systems
+      description: EEBase koodisüsteemid
       resources:
-#     - CodeSystem/eriala
-#     - StructureDefinition/bee-sting
-#
+      - CodeSystem/hooldusoiguse-liik
+      - CodeSystem/puude-raskusaste
+      - CodeSystem/national-identifier-requirement
+      - CodeSystem/omandatud-korgeim-haridus
+      - CodeSystem/teovoime-staatus
+      - CodeSystem/tootamise-liik
+      - CodeSystem/toovoime-liik
+   GroupMV:
+      name: MPI value sets
+      description: MPI koodisüsteemid
+      resources:
+      - ValueSet/eestkoste-liik
+      - ValueSet/hooldusoiguse-liik
+      - ValueSet/isiku-seos-patsiendiga
+      - ValueSet/national-identifier-requirement
+      - ValueSet/omandatud-korgeim-haridus
+      - ValueSet/puude-raskusaste
+      - ValueSet/teovoime-staatus
+      - ValueSet/tootamise-liik
+      - ValueSet/toovoime-liik
+   GroupMM:
+      name: MPI concept maps
+      description: MPI vastavustabelid
+      resources:
+      - ConceptMap/identity-system-to-oid
+      - ConceptMap/person-relationship-v3-mpi
+      - ConceptMap/person-relationship-mpi-v3
+
 #
 # The ImplementationGuide resource defines several other properties
 # not represented above. These properties can be used as-is and
