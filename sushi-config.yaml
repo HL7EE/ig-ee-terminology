@@ -5,7 +5,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: ee.fhir.terminology
 canonical: https://fhir.ee
-#url: https://fhir.ee/base/1.1.0
+#url: https://fhir.ee/ImplementationGuide/ee.fhir.terminology
 version: 0.2.0
 name: EETerminology
 title: Estonian Terminology resources
@@ -205,7 +205,7 @@ groups:
       - NamingSystem/pid-est-ni
    GroupMC:
       name: MPI code systems
-      description: EEBase koodisüsteemid
+      description: PÜT koodisüsteemid
       resources:
       - CodeSystem/hooldusoiguse-liik
       - CodeSystem/puude-raskusaste
@@ -216,7 +216,7 @@ groups:
       - CodeSystem/toovoime-liik
    GroupMV:
       name: MPI value sets
-      description: MPI koodisüsteemid
+      description: PÜT koodisüsteemid
       resources:
       - ValueSet/eestkoste-liik
       - ValueSet/hooldusoiguse-liik
@@ -229,7 +229,7 @@ groups:
       - ValueSet/toovoime-liik
    GroupMM:
       name: MPI concept maps
-      description: MPI vastavustabelid
+      description: PÜT vastavustabelid
       resources:
       - ConceptMap/identity-system-to-oid
       - ConceptMap/person-relationship-v3-mpi
