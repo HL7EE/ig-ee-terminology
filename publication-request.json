@@ -1,0 +1,10 @@
+{
+    "package-id" : "ee.fhir.terminology",
+    "version" : "0.2.0",
+    "path" : "https://fhir.ee/ig/terminology/0.2.0",
+    "mode" : "milestone",
+    "status" : "trial-use",
+    "sequence" : "Release 0.2.0",
+    "desc" : "Full release of terminology with EEBase and MPi resources",
+    "first" : true
+}
