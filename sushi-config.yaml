@@ -5,7 +5,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: ee.fhir.terminology
 canonical: https://fhir.ee
-version: 0.2.1
+version: 0.2.2
 name: EETerminology
 title: Estonian Terminology resources
 description: Terminoloogia mis on kasutusel juurutusjuhendites
