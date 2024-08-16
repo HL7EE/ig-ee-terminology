@@ -7,11 +7,16 @@ Description: "The legal status that applies to the patient. The legal status ind
 * ^caseSensitive = false
 * #T0 "Teovõimeline"
 * #T1 "Piiratud teovõimega valimisõiguseta"
-  * ^designation[0].language = #et
+  * ^designation[+].language = #et
   * ^designation[=].value = "Piiratud valimisõiguseta"
+  * ^designation[+].language = #et
+  * ^designation[=].value = "PIIRATUD (VALIMISÕIGUSETA)"
+* #T2 "Teovõimetu"
 * #T3 "Piiratud teovõimega valimisõigusega"
-  * ^designation[0].language = #et
+  * ^designation[+].language = #et
   * ^designation[=].value = "Piiratud valimisõigusega"
+  * ^designation[+].language = #et
+  * ^designation[=].value = "PIIRATUD (VALIMISÕIGUSEGA)"
 
 ValueSet:    TeovoimeStaatus
 Id:          teovoime-staatus
