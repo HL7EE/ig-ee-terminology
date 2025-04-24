@@ -1,9 +1,9 @@
-CodeSystem: EEOccupation
-Id: occupation
-Title: "Classification of Occupations"
-Description: "Estonian Edition of International Standard Classification of Occupations. Based on ISCO-88"
-//* ^url = https://fhir.ee/CodeSystem/occupation
-* ^experimental = true
+CodeSystem: AmetiteKlassifikaator
+Id: ametite-klassifikaator
+Title: "Ametite klassifikaator"
+Description: "„Ametite klassifikaator“ (AK) on Eesti-sisene klassifikaator, mis põhineb Rahvusvahelise Tööorganisatsiooni (ILO) hallataval klassifikaatoril International Standard Classification of Occupations ISCO-08."
+//* ^url = https://fhir.ee/CodeSystem/ametite-klassifikaator
+* ^experimental = false
 * ^caseSensitive = false
 * ^content = #fragment
 * #22122501 "Pediaater"
@@ -11,10 +11,10 @@ Description: "Estonian Edition of International Standard Classification of Occup
 * #22120901 "Kardioloog"
 * #22210502 "Õde"
 
-ValueSet: EEOccupation
-Id: occupation
-Title: "Occupation"
-Description: "Classification of Occupations"
-//* ^url = https://fhir.ee/ValueSet/occupation
-* ^experimental = true
-* include codes from system EEOccupation
+ValueSet: AmetiteKlassifikaator
+Id: ametite-klassifikaator
+Title: "Ametite klassifikaator"
+Description: "„Ametite klassifikaator“ (AK) on Eesti-sisene klassifikaator, mis põhineb Rahvusvahelise Tööorganisatsiooni (ILO) hallataval klassifikaatoril International Standard Classification of Occupations ISCO-08."
+//* ^url = https://fhir.ee/ValueSet/ametite-klassifikaator
+* ^experimental = false
+* include codes from system AmetiteKlassifikaator
