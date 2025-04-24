@@ -92,7 +92,7 @@ menu:
 #parameters:
 #  i18n-default-lang:
 #    - en
-#  i18n-lang: 
+#  i18n-lang:
 #    - et-EE
 #  translation-supplements: input/translations
 
@@ -167,17 +167,16 @@ groups:
       - CodeSystem/identifier-domain
       - CodeSystem/eriala
       - CodeSystem/mode-of-arrival
-      - CodeSystem/occupation
    GroupBV:
       name: Estonian Base value sets
       description: EEBase loendid
       resources:
-      - ValueSet/act-priority 
+      - ValueSet/act-priority
       - ValueSet/ads-adr-id
-      - ValueSet/ads-oid   
+      - ValueSet/ads-oid
       - ValueSet/administrative-gender
       - ValueSet/clinical-specialty
-      - ValueSet/date-accuracy-indicator  
+      - ValueSet/date-accuracy-indicator
       - ValueSet/degree-license-certificate
       - ValueSet/encounter-class
       - ValueSet/eriala
@@ -185,7 +184,6 @@ groups:
       - ValueSet/location-form
       - ValueSet/mode-of-arrival
       - ValueSet/observation-category
-      - ValueSet/occupation
       - ValueSet/organization-identifier-domain
       - ValueSet/organization-type
       - ValueSet/patient-identifier-domain
