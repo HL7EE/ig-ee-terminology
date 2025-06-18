@@ -5,7 +5,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: ee.fhir.terminology
 canonical: https://fhir.ee
-version: 0.2.2
+version: 0.2.3
 name: EETerminology
 title: Estonian Terminology resources
 description: Terminoloogia mis on kasutusel juurutusjuhendites
@@ -187,7 +187,6 @@ groups:
       - ValueSet/organization-identifier-domain
       - ValueSet/organization-type
       - ValueSet/patient-identifier-domain
-      - ValueSet/person-relationship
       - ValueSet/practitioner-identifier-domain
       - ValueSet/practitioner-role
    GroupBN:
@@ -217,7 +216,6 @@ groups:
       resources:
       - ValueSet/eestkoste-liik
       - ValueSet/hooldusoiguse-liik
-      - ValueSet/isiku-seos-patsiendiga
       - ValueSet/national-identifier-requirement
       - ValueSet/omandatud-korgeim-haridus
       - ValueSet/puude-raskusaste
@@ -229,8 +227,6 @@ groups:
       description: PÜT vastavustabelid
       resources:
       - ConceptMap/identity-system-to-oid
-      - ConceptMap/person-relationship-v3-mpi
-      - ConceptMap/person-relationship-mpi-v3
 
 #
 # The ImplementationGuide resource defines several other properties
